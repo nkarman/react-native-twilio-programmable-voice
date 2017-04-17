@@ -1,0 +1,14 @@
+source 'https://github.com/twilio/cocoapod-specs'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target ‘TwilioVoice’ do
+ # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+ project ‘TwilioVoice.xcodeproj’
+
+ use_frameworks!
+
+ # Pods for TwilioVoice
+  pod 'TwilioVoice', '=2.0.0-beta8'
+
+end
